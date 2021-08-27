@@ -1,1 +1,1 @@
-CMD="mitmdump -s youtube.py -p 6969 --no-http2 --allow-hosts '^(.+\.)?googlevideo\.com:443$' --set block_global=false"; until eval $CMD; do echo "Proxy crashed with exit code $?, restarting...">&2; sleep 1; done
+CMD="mitmdump -s youtube.py -p 8000 --no-http2 --allow-hosts '^(.+\.)?googlevideo\.com:443$' --set block_global=false"; until eval $CMD; do echo "Proxy crashed with exit code $?, restarting...">&2; sleep 1; done

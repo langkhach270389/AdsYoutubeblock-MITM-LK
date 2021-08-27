@@ -1,5 +1,5 @@
 var DIRECT = "DIRECT";
-var PROXY = "PROXY 127.0.01:6969"; //ip:port mitmproxy
+var PROXY = "PROXY 127.0.01:8000"; //ip:port mitmproxy
 
 var blocks = ["googlevideo",
 		"mitm",
