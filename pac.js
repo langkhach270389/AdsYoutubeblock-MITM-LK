@@ -1,9 +1,7 @@
 var DIRECT = "DIRECT";
-var PROXY = "PROXY 127.0.01:8000"; //ip:port mitmproxy
+var PROXY = "PROXY 165.22.105.204:8000"; //ip:port mitmproxy
 
-var blocks = ["googlevideo",
-		"mitm",
-		];
+var blocks = ["adguard", "googlevideo","mitm"]
 
 function FindProxyForURL(url, host) {
   host = host.toLowerCase();
